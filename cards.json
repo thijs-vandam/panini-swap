@@ -1,0 +1,80 @@
+{
+  "special": [
+    { "id": "FWC", "name_pt": "História do Mundial", "name_en": "World Cup History", "count": 19 },
+    { "id": "CCL", "name_pt": "Lendas Coca-Cola", "name_en": "Coca-Cola Legends", "count": 12 }
+  ],
+  "groups": [
+    { "id": "A", "teams": [
+      { "code": "MEX", "name": "Mexico", "flag": "🇲🇽", "count": 20 },
+      { "code": "RSA", "name": "South Africa", "flag": "🇿🇦", "count": 20 },
+      { "code": "KOR", "name": "Korea Republic", "flag": "🇰🇷", "count": 20 },
+      { "code": "CZE", "name": "Czechia", "flag": "🇨🇿", "count": 20 }
+    ]},
+    { "id": "B", "teams": [
+      { "code": "CAN", "name": "Canada", "flag": "🇨🇦", "count": 20 },
+      { "code": "BIH", "name": "Bosnia-Herzegovina", "flag": "🇧🇦", "count": 20 },
+      { "code": "QAT", "name": "Qatar", "flag": "🇶🇦", "count": 20 },
+      { "code": "SUI", "name": "Switzerland", "flag": "🇨🇭", "count": 20 }
+    ]},
+    { "id": "C", "teams": [
+      { "code": "BRA", "name": "Brazil", "flag": "🇧🇷", "count": 20 },
+      { "code": "MAR", "name": "Morocco", "flag": "🇲🇦", "count": 20 },
+      { "code": "HAI", "name": "Haiti", "flag": "🇭🇹", "count": 20 },
+      { "code": "SCO", "name": "Scotland", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "count": 20 }
+    ]},
+    { "id": "D", "teams": [
+      { "code": "USA", "name": "USA", "flag": "🇺🇸", "count": 20 },
+      { "code": "PAR", "name": "Paraguay", "flag": "🇵🇾", "count": 20 },
+      { "code": "AUS", "name": "Australia", "flag": "🇦🇺", "count": 20 },
+      { "code": "TUR", "name": "Türkiye", "flag": "🇹🇷", "count": 20 }
+    ]},
+    { "id": "E", "teams": [
+      { "code": "GER", "name": "Germany", "flag": "🇩🇪", "count": 20 },
+      { "code": "CUW", "name": "Curaçao", "flag": "🇨🇼", "count": 20 },
+      { "code": "CIV", "name": "Côte d'Ivoire", "flag": "🇨🇮", "count": 20 },
+      { "code": "ECU", "name": "Ecuador", "flag": "🇪🇨", "count": 20 }
+    ]},
+    { "id": "F", "teams": [
+      { "code": "NED", "name": "Netherlands", "flag": "🇳🇱", "count": 20 },
+      { "code": "JPN", "name": "Japan", "flag": "🇯🇵", "count": 20 },
+      { "code": "SWE", "name": "Sweden", "flag": "🇸🇪", "count": 20 },
+      { "code": "TUN", "name": "Tunisia", "flag": "🇹🇳", "count": 20 }
+    ]},
+    { "id": "G", "teams": [
+      { "code": "BEL", "name": "Belgium", "flag": "🇧🇪", "count": 20 },
+      { "code": "EGY", "name": "Egypt", "flag": "🇪🇬", "count": 20 },
+      { "code": "IRN", "name": "IR Iran", "flag": "🇮🇷", "count": 20 },
+      { "code": "NZL", "name": "New Zealand", "flag": "🇳🇿", "count": 20 }
+    ]},
+    { "id": "H", "teams": [
+      { "code": "ESP", "name": "Spain", "flag": "🇪🇸", "count": 20 },
+      { "code": "CPV", "name": "Cabo Verde", "flag": "🇨🇻", "count": 20 },
+      { "code": "KSA", "name": "Saudi Arabia", "flag": "🇸🇦", "count": 20 },
+      { "code": "URU", "name": "Uruguay", "flag": "🇺🇾", "count": 20 }
+    ]},
+    { "id": "I", "teams": [
+      { "code": "FRA", "name": "France", "flag": "🇫🇷", "count": 20 },
+      { "code": "SEN", "name": "Senegal", "flag": "🇸🇳", "count": 20 },
+      { "code": "IRQ", "name": "Iraq", "flag": "🇮🇶", "count": 20 },
+      { "code": "NOR", "name": "Norway", "flag": "🇳🇴", "count": 20 }
+    ]},
+    { "id": "J", "teams": [
+      { "code": "ARG", "name": "Argentina", "flag": "🇦🇷", "count": 20 },
+      { "code": "ALG", "name": "Algeria", "flag": "🇩🇿", "count": 20 },
+      { "code": "AUT", "name": "Austria", "flag": "🇦🇹", "count": 20 },
+      { "code": "JOR", "name": "Jordan", "flag": "🇯🇴", "count": 20 }
+    ]},
+    { "id": "K", "teams": [
+      { "code": "POR", "name": "Portugal", "flag": "🇵🇹", "count": 20 },
+      { "code": "COD", "name": "Congo DR", "flag": "🇨🇩", "count": 20 },
+      { "code": "UZB", "name": "Uzbekistan", "flag": "🇺🇿", "count": 20 },
+      { "code": "COL", "name": "Colombia", "flag": "🇨🇴", "count": 20 }
+    ]},
+    { "id": "L", "teams": [
+      { "code": "ENG", "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "count": 20 },
+      { "code": "CRO", "name": "Croatia", "flag": "🇭🇷", "count": 20 },
+      { "code": "GHA", "name": "Ghana", "flag": "🇬🇭", "count": 20 },
+      { "code": "PAN", "name": "Panama", "flag": "🇵🇦", "count": 20 }
+    ]}
+  ]
+}

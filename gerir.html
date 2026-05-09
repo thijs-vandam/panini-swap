@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Minha Lista — Troca Cromos Oeiras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1 data-i18n="siteTitle">Troca Cromos Oeiras</h1>
+  <nav><a href="index.html" data-i18n="navFind">Encontrar Trocas</a></nav>
+  <div class="lang-toggle">
+    <button data-lang-btn="pt">PT</button>
+    <button data-lang-btn="en">EN</button>
+  </div>
+</header>
+<main>
+  <div id="loading" class="card">A carregar…</div>
+  <div id="listing-area" style="display:none">
+    <div class="card">
+      <h2 data-i18n="manageTitle" style="margin-bottom:1rem">A Minha Lista</h2>
+      <label data-i18n="fieldName">Primeiro nome</label>
+      <input id="name" type="text" maxlength="30">
+      <label data-i18n="fieldHood">Bairro</label>
+      <select id="neighborhood"></select>
+      <div id="grid-container" style="margin:1rem 0"></div>
+      <p id="expires-label" style="color:var(--muted);font-size:.85rem;margin-bottom:1rem"></p>
+      <div id="gerir-msg"></div>
+      <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+        <button class="btn btn-primary" id="save-btn" data-i18n="saveBtn">Guardar Alterações</button>
+        <button class="btn btn-green" id="renew-btn" data-i18n="renewBtn">Renovar</button>
+        <button class="btn btn-danger" id="delete-btn" data-i18n="deleteBtn">Apagar</button>
+      </div>
+    </div>
+  </div>
+  <div id="error-area" style="display:none" class="msg msg-error">Link inválido ou expirado.</div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="config.js"></script>
+<script src="translations.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/grid.js"></script>
+<script src="js/gerir.js"></script>
+</body>
+</html>

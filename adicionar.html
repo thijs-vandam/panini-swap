@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionar Lista — Troca Cromos Oeiras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1 data-i18n="siteTitle">Troca Cromos Oeiras</h1>
+  <nav>
+    <a href="index.html" data-i18n="navFind">Encontrar Trocas</a>
+    <a href="adicionar.html" data-i18n="navAdd">Adicionar a Minha Lista</a>
+  </nav>
+  <div class="lang-toggle">
+    <button data-lang-btn="pt">PT</button>
+    <button data-lang-btn="en">EN</button>
+  </div>
+</header>
+<main>
+  <div class="card">
+    <h2 data-i18n="addTitle" style="margin-bottom:1rem">Adicionar a Minha Lista</h2>
+    <div id="form-area">
+      <label data-i18n="fieldName">Primeiro nome</label>
+      <input id="name" type="text" maxlength="30">
+      <label data-i18n="fieldHood">Bairro</label>
+      <select id="neighborhood"></select>
+      <label data-i18n="fieldEmail">Email dos pais</label>
+      <input id="email" type="email">
+      <div style="margin:1rem 0">
+        <p style="font-weight:600;margin-bottom:.5rem" data-i18n="gridModeDoubles">Tenho a dobrar</p>
+        <div id="grid-container"></div>
+      </div>
+      <div class="checkbox-row">
+        <input id="agree" type="checkbox">
+        <label for="agree" data-i18n="fieldAgree">1 cromo = 1 cromo, sem dinheiro.</label>
+      </div>
+      <div id="form-msg"></div>
+      <button class="btn btn-green" id="submit-btn" data-i18n="submitBtn">Guardar Lista</button>
+    </div>
+    <div id="success-msg" style="display:none" class="msg msg-success"></div>
+  </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="config.js"></script>
+<script src="translations.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/grid.js"></script>
+<script src="js/adicionar.js"></script>
+</body>
+</html>
